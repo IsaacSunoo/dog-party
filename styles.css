@@ -66,6 +66,10 @@ ul.navigationBar li a {
   transform: translate(-50%,-50%);
 }
 
+.nameForm {
+  text-align: left;
+}
+
 .nameFormDiv {
   color: white;
   top: 385px;
@@ -81,6 +85,10 @@ input {
   font-family: sans-serif;
 }
 
+.align-forms {
+  box-sizing: border-box;
+}
+
 .submitBtn {
   background-color: #92DFE5;
 }
@@ -92,9 +100,15 @@ input {
 }
 
 .column {
+  box-sizing: border-box;
   float: left;
   width: 33.33%;
   padding: 50px;
+}
+
+.dog-info {
+  width: 260px;
+  margin: 0 auto;
 }
 
 .column img {
